@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@media (max-width:1080px) {
+     html{
+        font-size:93.75%;
+     }   
+}
+@media (max-width:720px) {
+    html{
+       font-size:87.5%;
+    }   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#e7f6f8;
+}
+textarea,input,button,select{
+    background:#f9f2fc;
+}
+button{
+    cursor:pointer;
+}

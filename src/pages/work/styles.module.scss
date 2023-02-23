@@ -1,0 +1,122 @@
+.container{
+    max-width: 1120px;
+    margin:2rem auto;
+    padding:2rem;
+    background:rgba(0, 0, 0, 0.884);
+    border-radius:6px;
+    .warnText{
+        color:#ffbb00;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size:1.1rem;
+        button{
+            margin-left:5px;
+            background: transparent;
+            border:0;
+        }
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        input{
+            width: 90%;
+            height: 50px;
+            background:#413d40e5;
+            border-radius:6px;
+            color:#fff;
+            border:1px solid #130f12;
+        }
+
+        button{
+            margin-left:10px;
+            width: 8%;
+            height: 50px;
+            border:0;
+            background:rgb(61, 201, 85);
+            border-radius:6px
+        }
+    }
+
+    h1{
+        color:#fff;
+        margin-top:1.8rem;
+    }
+    .taskList{
+        background: #0f010c71;
+        margin:1rem 0;
+        padding:0.7rem;
+        border-radius: 6px;
+        
+    }
+    p{
+        cursor:pointer;
+        color:#c5c5c5;
+        line-height: 150%;
+        font-size:1rem;
+    }
+    .actions{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            time{
+                color:orange;
+                margin-left: 5px;
+                margin-right:5px;
+            }
+        }
+        button{
+            background: transparent;
+            border:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & + button{
+                margin-left:10px;
+            }
+            span{
+                margin-left:5px;
+                color:#fff;
+                cursor:pointer;
+
+                &:hover{
+                    filter:brightness(.9);
+                }
+            }
+        }
+    }
+}
+
+.vipContainer{
+    max-width: 1120px;
+    margin:2rem auto;
+    padding:2rem;
+    background:rgba(0, 0, 0, 0.884);
+    border-radius:6px;
+
+    h3{
+        color:rgba(219, 182, 15, 0.705);
+        font-size: 2rem;
+    }
+    div{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        time{
+            color:white;
+            padding:10px;
+            font-size: 1.4rem;
+        }
+    }
+}
